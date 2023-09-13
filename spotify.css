@@ -1,0 +1,279 @@
+body{
+    margin: 0%;
+    font-family: "CircularSpotifyTxT-Black"; ;
+    
+}
+.header-div{
+    
+    height: 80px;
+    background-color: black;
+    color: white;
+    letter-spacing: .2px;
+    display: flex;
+      justify-content: center;  
+}
+.spotify-div{
+    width: 1140px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-logo{
+    width: 132px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.main-logo>img{
+    cursor: pointer;
+}
+.navi-bar{
+    width: 490px;
+    height: 80px;
+    
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navi-bar>p{
+    margin-top: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    cursor: pointer;
+}
+.navi-bar>p:hover{
+    color: #1ed760;
+}
+.navi-bar>span{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.login{
+    padding-right: 0%;
+}
+.green-div{
+    height: 650px;
+    background-color: rgb(25,230,140);
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+}
+.green-image{
+padding-bottom: 40px;
+}
+.play-million{
+    margin: 0%;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+}
+.green-div>img{
+    cursor: pointer;
+}
+.green-head{
+    margin: 0%;
+    padding-bottom: 24px;
+    font-size: 48px;
+}
+.microsoft:hover{
+    transform: translateY(-2px);
+ transition:0.35s ease;
+}
+.download{
+margin: 0%;
+margin-top: 48px;
+text-decoration: underline;
+cursor: pointer;
+}
+
+.white-div{
+   
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.white-head{
+    font-size: 32px;
+    padding-bottom: 24px;
+    margin: 0%;
+}
+.white-p{
+    font-size: 16px;
+margin: 0%;
+padding-bottom: 16px;
+}
+.app-store{
+    width: 1140px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-store>img{
+    margin: 10px;
+    cursor: pointer;
+}
+.grey-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    color: white;
+    background-color: rgb(34,35,38);
+}
+.grey-image{
+width: 560px;
+height: 200px;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+.grey-head{
+    font-size: 32px;
+    margin: 0%;
+    padding-bottom: 24px;
+    color: white;
+}
+.mobile{
+  width: 875px;
+  margin-bottom: 50px; 
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+.mobile>span{
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 18px;
+    color: rgb(29, 185, 84);
+}
+.mobile-green{
+    color:rgb(29, 185, 84) ;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mobile-green:hover{
+    color:rgb(16, 217, 86);
+}
+.black-div{
+    
+    height: 425px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.black-spotify{
+    width: 165px;
+    height: 345px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.company-div{
+    width: 165px;
+    height: 345px; 
+    margin: 0%; 
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.company-div>h2{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:gray;
+}
+.company-div>li{
+    font-size: 15px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    color: white;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+.company-div>li:hover{
+    color: rgb(29, 185, 84);
+}
+.logoss{
+    width: 192px;
+    height: 345px; 
+    padding-left: 185px;
+    padding-right: 15px;
+    display: flex;
+}
+.logoss>div{
+    width: 54px;
+    height: 54px;
+   background-color: rgb(34,35,38);
+   margin-right: 15px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+}
+.icons>img{
+  background-color: white;
+}
+.icons>img:hover{
+    background-color: #1ed760;
+  }
+.usa-div{
+    width: 1140px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.usa-div>i{
+    color: grey;
+   font-size: 12px;
+   padding-right: 8px;
+}
+.usa-div>span{
+    font-size: 12px;
+    color: grey;
+   height: 12px;
+}
+.usa-div>span:hover{
+    color: rgb(29, 185, 84);
+}
+.final-div{
+    width: 1140px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px; 
+ color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.legal-div{
+    width: 775px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+}
+.legal-div>p{
+    padding-right: 24px;
+   cursor: pointer;
+}
+.legal-div>p:hover{
+    color: rgb(29, 185, 84);
+}
+.spotify-ab{
+    width: 105px;
+    height: 40px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
